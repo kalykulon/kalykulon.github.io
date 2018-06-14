@@ -3,12 +3,12 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.php?/$1 [L]
 
-# Заголовок Cache-Control
+# Г‡Г ГЈГ®Г«Г®ГўГ®ГЄ Cache-Control
 <IfModule mod_headers.c>
         Header append Cache-Control "public"
 </IfModule>
  
-# Заголовок Expires
+# Г‡Г ГЈГ®Г«Г®ГўГ®ГЄ Expires
 <IfModule mod_expires.c>
         ExpiresActive On ExpiresDefault "access plus 1 hours"
 </IfModule>
