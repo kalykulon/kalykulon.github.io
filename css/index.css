@@ -337,7 +337,7 @@ body
  z-index:10000!important;
 }
 .loader .loader_inner {
- background-image: url("../images/zagruzka2.gif");
+ background-image: url("../images/zagruzka.gif");
  background-size: cover;
  background-repeat: no-repeat;
  background-posirion: center center;
